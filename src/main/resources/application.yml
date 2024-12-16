@@ -1,0 +1,11 @@
+#应用服务 WEB 端口
+server:
+  port: 8080
+
+#数据库配置
+spring:
+  datasource:
+    username: root
+    password: qazwsx
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://8.134.74.43:3306/polaris?allowMultiQueries=true&useUnicode=true&characterEncoding=utf-8&useSSL=false
